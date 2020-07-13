@@ -1,0 +1,48 @@
+.details {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.mainborder {
+}
+
+.maintextbox {
+  display: inline-block;
+  border: 20px solid white;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px 30px;
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.maintext {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 4em;
+  color: black;
+  text-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.bodytext {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+}
+
+.addresstext {
+  font-family: 'Amatic SC', cursive;
+  font-size: 6em;
+}
+
+.datetext {
+  font-family: 'Amatic SC', cursive;
+  font-size: 5em;
+}
+
+.address-space {
+  margin-top: 25px;
+}
+
+a {
+  color: black;
+}

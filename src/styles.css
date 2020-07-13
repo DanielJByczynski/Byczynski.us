@@ -1,0 +1,156 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100vh;
+  overflow: auto;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+/* font-family: 'Shadows Into Light Two', cursive; */
+  /* font-family: Roboto, "Helvetica Neue", sans-serif; */
+  background: url("/assets/img/home/homemobile.png") no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  box-shadow: 5px 5px 5px inset rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 560px) {
+  body {
+    font-family: 'Amatic SC', cursive;
+  /* font-family: 'Shadows Into Light Two', cursive; */
+    /* font-family: Roboto, "Helvetica Neue", sans-serif; */
+    background: url("/assets/img/home/home0.png") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    border: 18px solid #FFF;
+    box-shadow: 5px 5px 5px inset rgba(0, 0, 0, 0.5);
+  }
+
+  .maintextbox {
+    margin-bottom: 25px;
+  }
+
+  .mobileimg {
+    background: url("/assets/img/home/homemobile.png") no-repeat ;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .buttontext {
+    font-family: 'Shadows Into Light Two', cursive !important;
+    font-size: 2em !important;
+  }
+
+  .formtext {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+  }
+
+  .buttonspace {
+    margin-top: 25px;
+    display: inline-block;
+  }
+
+  .link-list {
+    width: 100%;
+    padding:  5px 15px;
+  }
+
+  .link-item {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .heart:hover, .is-active
+  {
+    display: inline-block;
+    background: url("/assets/img/home/heart.png") no-repeat center center;
+    background-size: 60px;
+  }
+
+  .link {
+    font-size: 3em;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+  }
+
+  .link-item > a {
+    display: inline-block;
+    min-width: 60px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 560) {
+
+  body {
+    font-family: 'Amatic SC', cursive;
+  /* font-family: 'Shadows Into Light Two', cursive; */
+    /* font-family: Roboto, "Helvetica Neue", sans-serif; */
+    background: url("/assets/img/home/homemobile.png") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 5px inset rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+
+
+
+  .mobileimg {
+    background: url("/assets/img/home/homemobile.png") no-repeat ;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+  }
+  .headertext {
+    font-family: 'Shadows Into Light Two', cursive !important;
+    font-size: 2em !important;
+  }
+
+  .buttontext {
+    font-family: 'Shadows Into Light Two', cursive !important;
+    font-size: 1em !important;
+  }
+
+  .formtext {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1em;
+  }
+
+  .buttonspace {
+    margin-top: 25px;
+    display: inline-block;
+  }
+
+
+  .link-list {
+    width: 100%;
+    padding:  5px 15px;
+  }
+
+  .link-item {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .heart:hover, .is-active
+  {
+    display: inline-block;
+    background: url("/assets/img/home/heart.png") no-repeat center center;
+    background-size: 40px;
+  }
+
+  .link {
+    font-size: 1em;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+  }
+
+  .link-item > a {
+    display: inline-block;
+    min-width: 40px;
+  }
+}

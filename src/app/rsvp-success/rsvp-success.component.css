@@ -1,0 +1,64 @@
+.details {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.mainbox{
+  width: 100%;
+}
+
+.painting {
+  display: block;
+  background: url("src/assets/img/home/painting.jpg");
+  background-size: cover;
+  min-height: 600px;
+  border: none !important;
+}
+
+.maintextbox {
+  display: inline-block;
+  border: 20px solid white;
+  padding: 10px 30px 0ls;
+  background-color: rgba(255, 255, 255, .9);
+  width: 100%;
+  max-width: 500px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.shadow {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.maintext {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 4em;
+  color: black;
+  text-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.bodytext {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+}
+
+.addresstext {
+  font-family: 'Amatic SC', cursive;
+  font-size: 6em;
+}
+
+.datetext {
+  font-family: 'Amatic SC', cursive;
+  font-size: 5em;
+}
+
+.address-space {
+  margin-top: 25px;
+}
+
+a {
+  color: black;
+}

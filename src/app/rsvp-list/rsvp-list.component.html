@@ -1,0 +1,16 @@
+<div class="details text-center">
+  <div class="mainbox">
+    <div class="maintextbox">
+      <h1 class="maintext">RSVPs:</h1>
+      <h2 class="bodytext">Guests: {{guests}}</h2>
+      <button (click)="downloadFile()">DOWNLOAD RSVP LIST</button>
+      <tbody class="datatable">
+        <tr *ngFor="let rsvp of rsvps">
+          <td style="padding-right: 10px">{{ rsvp.payload.doc.data().name }}</td>
+          <td class="guests" style="padding-right: 10px">{{ rsvp.payload.doc.data().guests }}</td>
+          <td style="padding-right: 10px">{{ rsvp.payload.doc.data().comment }}</td>
+        </tr>
+      </tbody>
+    </div>
+  </div>
+</div>

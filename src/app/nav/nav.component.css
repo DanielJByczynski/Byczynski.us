@@ -1,0 +1,39 @@
+.menudisplay {
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menubar {
+  text-align: center;;
+}
+
+.link-list {
+  width: 100%;
+  padding:  5px 15px;
+}
+
+.link-item {
+  display: inline-block;
+  margin: 10px 8px 0px;
+}
+
+.heart:hover, .is-active
+{
+  display: inline-block;
+  background: url("/assets/img/home/heart.png") no-repeat center center;
+  background-size: 50px;
+}
+
+.link {
+  font-size: 2.75em;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  text-decoration: none;
+}
+
+.link-item > a {
+  display: inline-block;
+  min-width: 50px;
+}

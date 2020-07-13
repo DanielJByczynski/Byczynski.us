@@ -1,0 +1,138 @@
+.maintext {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 4em;
+  color: black;
+  text-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: url("/assets/img/home/home1.png") no-repeat center center fixed !important;
+  background-size: cover;
+  background-position: center;
+  border: 20px solid #FFF;
+}
+
+.form-style-8{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+	background: #fff;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 input[type="textarea"],
+.form-style-8 textarea,
+.form-style-8 select
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.form-style-8 textarea,
+.form-style-8 input[type="textarea"]{
+	resize:none;
+	overflow: hidden;
+}
+
+button.submit,
+.form-style-8 input[type="button"],
+.form-style-8 input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px rgb(189, 11, 41) 5%;
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgb(189, 11, 41) 5%;
+	box-shadow: inset 0px 1px 0px 0px rgb(189, 11, 41) 5%;
+	background-color: rgb(223, 19, 53) 5%;
+	border: 5px solid rgb(223, 19, 53) 5%;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+button.submit,
+.form-style-8 input[type="button"]:hover,
+.form-style-8 input[type="submit"]:hover {
+	background:linear-gradient(to bottom, rgb(223, 19, 53) 5%, rgb(233, 9, 65) 100%);
+  background-color:rgb(202, 52, 72);
+  border-radius: 10px;
+}
+
+.formbox {
+  max-width: 100%;
+  margin-top: 80px;
+  border: 20px solid white;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.alert {
+  display: inline-block;
+  font-family: 'Shadows Into Light Two', cursive !important;
+  font-size: 2em !important;
+  color: red !important;
+}
+
+.alert:empty {
+  display:none;
+}
+
+.headertext {
+  font-family: 'Shadows Into Light Two', cursive !important;
+  font-size: 3em !important;
+}
+
+.buttontext {
+  font-family: 'Shadows Into Light Two', cursive !important;
+  font-size: 2em !important;
+}
+
+.formtext {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+}
+
+.buttonspace {
+  margin-top: 25px;
+  display: inline-block;
+}
+
+
+

@@ -1,0 +1,37 @@
+{
+  "hosting": {
+    "public": "dist/ByczynskiWedding",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/details",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/registry",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/rsvp",
+        "destination": "/",
+        "type": 302
+      },
+      {
+        "source": "/rsvp/success",
+        "destination": "/",
+        "type": 302
+      } ,
+      {
+        "source": "/rsvp/list",
+        "destination": "/",
+        "type": 302
+      }
+    ]
+  }
+}

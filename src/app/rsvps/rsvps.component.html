@@ -1,0 +1,33 @@
+
+<div class="form-style-8 formbox animated zoomIn faster">
+  <div class="text-center topspace">
+    <h1 class="maintext">RSVP:</h1>
+  </div>
+
+  <form [formGroup]="this.rsvpService.form">
+      <h2 class="alert">{{ alert }}</h2>
+      <input placeholder="Name"
+            formControlName="name"
+            type="text"
+            class="input-field col s12"
+            required>
+      <input id="guestinput"
+             placeholder="Guests"
+            formControlName="guests"
+            type="Number"
+            class="input-field col s12"
+            required
+             min="1" max="9" >
+      <input placeholder="Add a comment!"
+            formControlName="comment"
+            type="textarea"
+            class="input-field col s12"
+            required>
+
+      <button
+        class="submit buttontext buttonspace"
+        (click)="onSubmit()">
+        Send RSVP!
+      </button>
+  </form>
+</div>
